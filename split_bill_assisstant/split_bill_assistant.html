@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="split_bill_assistant.css"/>
+    <script type="text/javascript" src="split_bill_assistant.js"></script>
+    <title>AA_assist</title>
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-md-12">
+            <h1 align="center" id="headline">Welcome</h1>
+            <p id="er_msg"></p>
+            <!--<p id="debug">Debug</p>-->
+        </div>
+        <div class="container" id="get_num_c">
+            <p id="get_num_p">Enter the number of people(1 < N < 12):</p><input type="text" id="get_num"/>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="main_content">
+    <div class="col-md-1" id="col_1">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_2">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_5">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_6">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_7">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_8">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_9">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_10">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-1" id="col_11">
+        <div class="panel panel-default">
+            <div class="panel-heading">Name:
+                <input type="text" class="main_ipt" size="1"/>
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" class="main_ipt_a" size="1"/>
+            </div>
+            <div class="panel-footer">Total amount:<p class="result"></p></div>
+        </div>
+    </div>
+    <div class="col-md-2" id="col_12">
+        <div class="panel panel-default">
+            <div class="panel-heading">Shared items:
+                <!--<input type="text" class="main_ipt" size="1"/>-->
+            </div>
+            <div class="panel-body">Amount:
+                <input type="text" size="5" id="s_i_ipt"/>
+            </div>
+            <!--<div class="panel-footer">Total amount till now:</div>-->
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <button type="button" class="btn btn-default">Compute</button>
+    </div>
+</div>
+</body>
+</html>

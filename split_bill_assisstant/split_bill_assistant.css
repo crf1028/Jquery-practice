@@ -1,0 +1,12 @@
+#main_content {
+    text-align: center;
+}
+
+#headline{
+    padding:20px;
+}
+
+.btn-default{
+    margin:auto;
+    display:block;
+}
