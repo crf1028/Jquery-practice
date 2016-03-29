@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--clipboard.js CDN-->
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.8/clipboard.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="bt_ez_clip.css"/>
+    <script type="text/javascript" src="bt_ez_clip.js"></script>
+    <title>Bootstrap Easy Clipboard</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="col-md-12">
+        <div class="jumbotron"><h1>Elements</h1></div>
+    </div>
+    <div class="col-md-12">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#Buttons_tab">Buttons</a></li>
+            <li><a data-toggle="tab" href="#Badges_Labels_tab">Badges and Labels</a></li>
+            <li><a data-toggle="tab" href="#Alert_tab">Alerts</a></li>
+            <li><a data-toggle="tab" href="#List_Group_tab">List Group</a></li>
+            <li><a data-toggle="tab" href="#Panel_tab">Panels</a></li>
+            <li><a data-toggle="tab" href="#Dropdown_tab">Dropdowns</a></li>
+            <li><a data-toggle="tab" href="#Well_tab">Wells</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="well tab-pane fade in active" id="Buttons_tab">
+                <p>
+                <h4>Normal Buttons</h4>
+                <button type="button" class="btn btn-default">Default</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-link">Link</button>
+                </p>
+                <br>
+
+
+                <p><h4>Buttons in different size</h4>
+                <button type="button" class="btn btn-primary btn-lg">Large</button>
+                <button type="button" class="btn btn-primary btn-md">Medium</button>
+                <button type="button" class="btn btn-primary btn-sm">Small</button>
+                <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+                </p>
+                <br>
+
+                <p>
+                <h4>Block Buttons</h4>
+                <button type="button" class="btn btn-primary btn-block">Resize the window to see the effect</button>
+                <br>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+                </div>
+                <div class="col-md-1">
+                    <button type="button" class="btn btn-primary btn-block">Button 1</button>
+                </div>
+                </p>
+                <br>
+                <br>
+
+                <p>
+                <h4>Active/Disabled Buttons</h4>
+                <button type="button" class="btn btn-primary active">Active Primary</button>
+                <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+                </p>
+                <br>
+
+                <p>
+                <h4>Grouped Buttons</h4>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Apple</button>
+                    <button type="button" class="btn btn-primary">Samsung</button>
+                    <button type="button" class="btn btn-primary">Sony</button>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Vertically Grouped Buttons</h4>
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-primary">Apple</button>
+                    <button type="button" class="btn btn-primary">Samsung</button>
+                    <button type="button" class="btn btn-primary">Sony</button>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Block Grouped Buttons</h4>
+                <div class="btn-group btn-group-justified">
+                    <a href="#" class="btn btn-primary">Apple</a>
+                    <a href="#" class="btn btn-primary">Samsung</a>
+                    <a href="#" class="btn btn-primary">Sony</a>
+                </div>
+                </p>
+                <br>
+            </div>
+
+            <div class="well tab-pane fade" id="Badges_Labels_tab">
+                <p>
+                <h4>Normal Badges</h4>
+                <a href="#" class="badge2p">News <span class="badge">5</span></a><br>
+                <a href="#" class="badge2p">Comments <span class="badge">10</span></a><br>
+                <a href="#" class="badge2p">Updates <span class="badge">2</span></a>
+                </p>
+                <br>
+
+                <p>
+                <h4>Badge in Button</h4>
+                <button type="button" class="btn btn-default">Default <span class="badge">6</span></button>
+                <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+                <button type="button" class="btn btn-success">Success <span class="badge">10</span></button>
+                <button type="button" class="btn btn-info">Info <span class="badge">12</span></button>
+                <button type="button" class="btn btn-warning">Warning <span class="badge">1</span></button>
+                <button type="button" class="btn btn-danger">Danger <span class="badge">2</span></button>
+                </p>
+                <br>
+
+                <p>
+                <h4>Normal Labels</h4>
+                <span class="label label-default">Default Label</span>
+                <span class="label label-primary">Primary Label</span>
+                <span class="label label-success">Success Label</span>
+                <span class="label label-info">Info Label</span>
+                <span class="label label-warning">Warning Label</span>
+                <span class="label label-danger">Danger Label</span>
+                </p>
+                <br>
+            </div>
+
+            <div class="well tab-pane fade" id="Alert_tab">
+                <p>
+                <h4>Alerts</h4>
+                <div class="alert alert-success fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+                </div>
+                <div class="alert alert-info fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+                </div>
+                <div class="alert alert-warning fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+                </div>
+                <div class="alert alert-danger fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+                </div>
+                </p>
+                <br>
+            </div>
+
+            <div class="well tab-pane fade" id="List_Group_tab">
+                <p>
+                <h4>Normal List Groups</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">First item</li>
+                    <li class="list-group-item">Second item</li>
+                    <li class="list-group-item">Third item</li>
+                </ul>
+                </p>
+                <br>
+
+                <p>
+                <h4>Contextual Classes</h4>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-success">First item</li>
+                    <li class="list-group-item list-group-item-info">Second item</li>
+                    <li class="list-group-item list-group-item-warning">Third item</li>
+                    <li class="list-group-item list-group-item-danger">Fourth item</li>
+                </ul>
+                </p>
+                <br>
+            </div>
+
+            <div class="well tab-pane fade" id="Panel_tab">
+                <p>
+                <h4>Basic Panel</h4>
+                <div class="panel panel-default">
+                    <div class="panel-body">A Basic Panel</div>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Panel with heading</h4>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Panel Heading</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Panel with footer</h4>
+                <div class="panel panel-default">
+                    <div class="panel-body">Panel Content</div>
+                    <div class="panel-footer">Panel Footer</div>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Panel with heading and footer</h4>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Panel Heading</div>
+                    <div class="panel-body">Panel Content</div>
+                    <div class="panel-footer">Panel Footer</div>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Contextual Classes</h4>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Panel with panel-default class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Panel with panel-primary class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+
+                <div class="panel panel-success">
+                    <div class="panel-heading">Panel with panel-success class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">Panel with panel-info class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+
+                <div class="panel panel-warning">
+                    <div class="panel-heading">Panel with panel-warning class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Panel with panel-danger class</div>
+                    <div class="panel-body">Panel Content</div>
+                </div>
+                </p>
+                <br>
+            </div>
+
+            <div class="well tab-pane fade" id="Dropdown_tab">
+                <p>
+                <h4>Basic Dropdown</h4>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+                        Example
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+                </p>
+                <br>
+
+                <p>
+                <h4>Dropdown with header</h4>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Dropdown header 1</li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header 2</li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                </p>
+                <br>
+                </div>
+
+                <div class="tab-pane fade" id="Well_tab">
+                <div class="well">Basic Well</div>
+                <div class="well well-sm">Small Well</div>
+                <div class="well well-lg">Large Well</div>
+                </div>
+
+                <div>
+                <br>
+
+                <p>
+                <h4></h4>
+                </p>
+                <br>
+
+                <p>
+                <h4></h4>
+                </p>
+                <br>
+
+                <p>
+                <h4></h4>
+                </p>
+                <br>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
